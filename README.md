@@ -4,7 +4,7 @@
 Lightweight responsive framework named after my Mini Pischer
 
 ### Docs ###
-====
+#### Components ####
 
 * navbar - you can create a navigation bar like this:
   
@@ -43,4 +43,24 @@ Lightweight responsive framework named after my Mini Pischer
   <div class="navbar inverse">
     ...
   </div>
+  ```
+* button - like many frontend components, Sandy provides a few different kinds and states of button:
+  
+  ```html
+  <button type="button" class="btn">Default</button> <!--default button-->
+  <button type="button" class="btn btn-primary">Primary</button> <!--primary blue button-->
+  <button type="button" class="btn btn-success">Success</button> <!--success green button-->
+  <button type="button" class="btn btn-warning">Warning</button> <!--warning orange button-->
+  <button type="button" class="btn btn-danger">Danger</button> <!--danger red button-->
+  ```
+  also, Sandy provides different sizes of buttons:
+  
+  ```html
+  <button type="button" class="btn btn-large">Large</button>
+  <button type="button" class="btn btn-xlarge">XLarge</button>
+  <button type="button" class="btn btn-xxlarge">XXLarge</button>
+  <button type="button" class="btn btn-small">Small</button>
+  <button type="button" class="btn btn-xsmall">XSmall</button>
+  <button type="button" class="btn btn-xxsmall">XXSmall</button>
+  <button type="button" class="btn btn-xxsmall btn-danger">XXSmall</button>
   ```
