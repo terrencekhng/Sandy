@@ -64,6 +64,11 @@ Lightweight responsive framework named after my Mini Pischer
   <button type="button" class="btn btn-xxsmall">XXSmall</button>
   <button type="button" class="btn btn-xxsmall btn-danger">XXSmall</button>
   ```
+  if you want to disable a button, just follow this, which will make the button unclickable(no visual effect after clicked), and the color is much gray:
+  
+  ```html
+  <button type="button" class="btn disabled">Disabled</button>
+  ```
 * button group - button group contains a row or a column of buttons:
   
   ```html
