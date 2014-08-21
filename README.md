@@ -7,12 +7,14 @@ Lightweight responsive framework named after my Mini Pischer
 ====
 
 * navbar - you can create a navigation bar like this:
+  
   ```html
   <div class="navbar">
   ...
   </div>
   ```
   then add some contents to the navigation bar:
+  
   ```html
   <div class="navbar">
     <div class="brand">Sandy</div>
