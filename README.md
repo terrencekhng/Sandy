@@ -30,4 +30,17 @@ Lightweight responsive framework named after my Mini Pischer
     </div>
   </div>
   ```
+  if you want the navigation bar stay fixed on the top/bottom of the page, you could add the `fixed-top` or `fixed-bottom`:
   
+  ```html
+  <div class="navbar fixed-top">
+    ...
+  </div>
+  ```
+  if you have used Bootstrap you must remember *inverse* which is used to inverse the color of the element, turns the color to its similarly inversed color:
+  
+  ```html
+  <div class="navbar inverse">
+    ...
+  </div>
+  ```
