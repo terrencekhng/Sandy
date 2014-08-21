@@ -44,7 +44,7 @@ Lightweight responsive framework named after my Mini Pischer
     ...
   </div>
   ```
-* button - like many frontend components, Sandy provides a few different kinds and states of button:
+* button - like many frontend components, Sandy provides a few different kinds and states of buttons:
   
   ```html
   <button type="button" class="btn">Default</button> <!--default button-->
@@ -63,4 +63,29 @@ Lightweight responsive framework named after my Mini Pischer
   <button type="button" class="btn btn-xsmall">XSmall</button>
   <button type="button" class="btn btn-xxsmall">XXSmall</button>
   <button type="button" class="btn btn-xxsmall btn-danger">XXSmall</button>
+  ```
+* button group - button group contains a row or a column of buttons:
+  
+  ```html
+  <div class="btn-group">
+    <button type="button" class="btn">button</button>
+    <button type="button" class="btn">button</button>
+    <button type="button" class="btn">button</button>
+    <button type="button" class="btn">button</button>
+  </div>
+  ```
+* pager - jump between pages:
+  
+  ```html
+  <div class="pager">
+  <ul>
+    <li><a href="#">&lt;</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&gt;</a></li>
+  </ul>
+</div>
   ```
