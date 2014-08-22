@@ -1,0 +1,172 @@
+/* navbar.css */
+
+body {
+  font-family: Helvetica;
+  color: #444;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  /*display: inline-block;*/
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.navbar {
+  /*width: 100%;*/
+  background-color: #f0f0f0;
+  border: 1px solid #c7c7c7;
+  *z-index: 2;
+  *position: relative;
+}
+
+.navbar.sole {
+  border-radius: 6px;
+  display: block;
+  margin: 5px 0;
+}
+
+.navbar:before,
+.navbar:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.navbar.fixed-top,
+.navbar.fixed-bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  z-index: 1030;
+  border: 0;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.navbar.fixed-top {
+  top: 0;
+}
+
+.navbar.fixed-bottom {
+  bottom: 0;
+  border-top: 1px solid #c7c7c7;
+}
+
+.navbar .brand {
+  font-size: 1.2em;
+  padding: 0.6em 0.8em;
+  float: left;
+  line-height: 1em;
+}
+
+.navbar .brand:before,
+.navbar .brand:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #444;
+}
+
+.navbar-body {
+  min-height: 40px;
+}
+
+.navbar .brand + .navbar-body {
+  float: left;
+
+}
+
+.navbar .brand + .navbar-body:before,
+.navbar .brand + .navbar-body:after {
+  display: table;
+  line-height: 0;
+  content: "";
+  clear: both;
+}
+
+.navbar .nav {
+  border-left: 1px solid #c7c7c7;
+  float: left;
+  display: block;
+  margin-left: 5px;
+  position: relative;
+  list-style: none;
+}
+
+.navbar .nav > li {
+  float: left;
+  display: inline;
+}
+
+.navbar .divider {
+  min-height: 42px;
+  border-left:1px solid #c7c7c7;
+  margin: 0 1em;
+
+}
+
+.navbar .nav + li {
+
+}
+
+.navbar .nav > li > a {
+  padding: 0.8em;
+  float: none;
+  display: block;
+}
+
+.navbar .nav li:focus,
+.navbar .nav li:hover {
+  background-color: #e1e1e1;
+}
+
+.navbar .nav li.active,
+.navbar .nav li:active {
+  background-color: #cdcdcd;
+  box-shadow: 0 1px 20px -8px #4f4f4f inset;
+  text-shadow: 1px -1px 1px #e1e1e1;
+}
+
+/* navbar scheme */
+.navbar.inverse {
+  background-color: #282828;
+  color: #e1e1e1;
+  border: 1px solid #000000;
+}
+
+.navbar.inverse a {
+  color: #e1e1e1;
+}
+
+.navbar.inverse .nav {
+  border-left: 1px solid #414141;
+}
+
+.navbar.inverse .nav li:focus,
+.navbar.inverse .nav li:hover {
+  background-color: #414141;
+}
+.navbar.inverse .nav li.active,
+.navbar.inverse .nav li:active {
+  background-color: #3c3c3c;
+  box-shadow: 0 1px 20px 1px #1f1f1f inset;
+  text-shadow: 1px -1px 1px #272727;
+}
