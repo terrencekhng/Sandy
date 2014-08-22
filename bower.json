@@ -1,0 +1,23 @@
+{
+  "name": "Sandy",
+  "version": "0.0.0",
+  "description": "Sandy is a lightweight responsive framework named after my Mini Pinscher.",
+  "main": "style/*.css",
+  "keywords": [
+    "responsive",
+    "RWD",
+    "frontend",
+    "framework"
+  ],
+  "authors": [
+    "Terence Ng"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
